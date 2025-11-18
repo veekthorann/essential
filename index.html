@@ -3,43 +3,53 @@
 <head>
 <title> My Sample Page </title>
 <style>
-p {
-text-indent: 20px;
-}
-a {
-color:green;
-text-decoration: green underline 2% double ;
-}
 body {
-color: darkblue;
-background:#23006053 repeat center fixed;
-
+background-color: #23006053;
+font-family: calibri, verdana;
 }
-h1, h2 {
+.par {
+text-align: left;
+text-indent: 20px;
+margin: 20px;
+color: darkblue;
+}
+.hd {
 text-align:center;
 text-decoration:underline;
 text-decoration-style:double;
 text-decoration-thickness:5%;
 color:darkgreen;
-font-family:calibri, verdana;
 margin-left:2px;
 }
-div {
-background-color: lightblue;
-  width: 300px;
-  border: 15px lightgreen;
-  padding: 50px;
-  text-align: center;
-  color: black;
+ol.a {
+list-style-type: decimal;
+color: darkblue;
 }
+a:link, a:visited {
+background-color: darkgreen;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+}
+a:hover, a:active {
+background-color: red;
+}
+.d {
+background-color: lightblue;
+padding: 30px;
+  width: 50%;
+  text-align: center;
+  color: gray;
+  }
 </style>
 </head>
 <body>
-<h1> A Techincal Mechanism In Polymer </h1>
-<p> This consists of a base polymer or blend of polymer (rubber) and neccessary property boosting additives which enables ease of processing and the ability to meet the service requirement</p>
+<h1 class="hd"> A Techincal Mechanism In Polymer </h1>
+<p class="par"> This consists of a base polymer or blend of polymer (rubber) and neccessary property boosting additives which enables ease of processing and the ability to meet the service requirement</p>
 <img src="img_polymers-14-00082.png") alt="structure" stye="width:1101px;height:884px;">
-<h2> Types</h2>
-<ol>
+<h2 class="hd"> Types</h2>
+<ol class="a">
 <li> Base polymer e.g NR, SBR, NBR, IR, IIR, ABS, EPR, EPDM, all these can be used singularly or as a blend.</li>
 <li>Cross linking agent e.g Sulphur, Metal oxides, (zinc or magnesium). They are used for backbone chains that are unsaturated with pendant group attached.</li>
 <li>Sulphor donor: These are types of chemical sub-base substance that contains sulphur molecules.</li>
@@ -47,16 +57,16 @@ background-color: lightblue;
 <li>Polyfunctional amines: They are used for flouro carbon rubbers.</li>
 <li>Accelerators: They speed up the rate of chemical reaction but does not undergo composition. Examples are;<br>MBTS, TMTD.</li>
 </ol>
-<p>N/B: Accelerators increase the rate of cure.</p>
+<p style="color:darkblue">N/B: Accelerators increase the rate of cure.</p>
 <p> Learn more from <a href="https://www.sciencedirect.com/">sciencedirect</a></p>
 
-<div> It is very essential to have a background knowledge about Polymer as a course before dividing further into it`s properties.</div>
+<div class="d"> It is very essential to have a background knowledge about Polymer as a course before dividing further into it`s properties.</div>
 
-<adress><pre>written by Victor Ben.
+<adress style="color:darkblue"><pre>written by Victor Ben.
 vickbenjamin1@gmail.com
 Box 47, Edo State
 Nigeria.
-</address>
+</pre></address>
 
 <!.. Above is a sample of my little knowledege about "HTMl" so far..>
 </body>
