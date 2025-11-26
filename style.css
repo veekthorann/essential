@@ -1,0 +1,47 @@
+body {
+    background-color: #23006053;
+    font-family: calibri, verdana;
+}
+
+.par {
+    text-align: left;
+    text-indent: 20px;
+    margin: 20px;
+    color: darkblue;
+}
+
+.hd {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5%;
+    color: darkgreen;
+    margin-left: 2px;
+}
+
+ol.a {
+    list-style-type: decimal;
+    color: darkblue;
+}
+
+a:link,
+a:visited {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+}
+
+.d {
+    background-color: lightblue;
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+    color: gray;
+}
